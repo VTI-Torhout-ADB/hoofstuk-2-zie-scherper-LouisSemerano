@@ -4,7 +4,10 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            double kills = 5;
+            double deaths = 2;
+            double kd = kills / deaths;
+            Console.WriteLine($"Je k/d-ratio is {kd}");
         }
     }
 }
